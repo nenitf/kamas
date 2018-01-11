@@ -1,0 +1,14 @@
+.socialmedia-div{
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.alert .fa-2x{
+	transition: 1s;
+	color: rgb(146, 168, 209);
+}
+
+
+.alert .fa-2x:hover {
+	color: rgb(247, 202, 201);
+}

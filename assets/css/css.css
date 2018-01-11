@@ -1,0 +1,26 @@
+.kama-div{
+	cursor: move;
+
+	width: 10%;
+
+	max-height: 100px;
+	max-width: 100px;
+	min-height: 50px;
+	min-width: 50px;
+
+	overflow: hidden;
+}
+
+body {
+	background: linear-gradient(to right, rgb(247, 202, 201), rgb(146, 168, 209));
+}
+
+.kama-img{
+	width: 100%;
+}
+
+#apagar {
+	padding: 0.5em;
+	float: left;
+	border: 1px solid black;
+}
