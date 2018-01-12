@@ -1,8 +1,9 @@
 .kama-div{
-	max-height: 50px;
-	max-width: 50px;
-	min-height: 25px;
-	min-width: 25px;
+	width: 50%;
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	text-align: center;
 }
 
 body {
@@ -20,19 +21,13 @@ body {
 #apagar {
 	padding: 0.5em;
 	float: left;
-	border: 1px solid black;
+	border: 5px dashed black;
 	position: absolute;
-	left: 50%;
-	top: 0%
-}
-
-#criar{
-	padding: 0.5em;
-	float: left;
-	border: 1px solid black;
-	position: absolute;
-	left: 50%;
-	bottom: 0%;
+	left: 30%;
+	top: 0%;
+	width: 40%;
+	height: 15%;
+	vertical-align: ce;
 }
 
 html {
@@ -40,4 +35,21 @@ html {
 }
 body {
 	min-height: 100%;
+}
+
+.player{
+	position: absolute;
+	padding: 0.5em;
+	width: 20%;
+	height: 100%;
+	border: 1px solid black;
+	top: 0%;
+}
+
+.p1{
+	right: 80%;
+}
+
+.p2{
+	right: 0%;
 }
