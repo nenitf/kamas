@@ -11,7 +11,7 @@ body {
 	width: 40%;
 	position: absolute;
 	left: 30%;
-	top: 68%;
+	top: 62%;
 	text-align: center;
 }
 
@@ -45,6 +45,20 @@ body {
 	right: 0%;
 }
 
+.player-sortable{
+	width: 100%;
+	height: 100%;
+}
+
+.ui-player-state-ativado{
+	background-color: rgba(255, 247, 0, 0.177);
+}
+
+.legenda{
+	display: none;
+	color: rgba(0, 0, 0, 0.598);
+}
+
 .apagar {
 	padding: 0.5em;
 	float: left;
@@ -53,25 +67,28 @@ body {
 	left: 35%;
 	top: 0%;
 	width: 30%;
-	height: 65%;
+	height: 60%;
 	text-align: center;
 	overflow: hidden;
 }
 
 .rd-img{
-	max-height: 250px;
-	max-width: 250px;
-	min-height: 150px;
-	min-width: 150px;
+	width: 70%;
+	max-height: 200px;
+	max-width: 200px;
+	min-height: 70px;
+	min-width: 70px;
 	position: relative;
 }
 
-.success {
-	color: #3c763d;
-	background-color: #dff0d8;
-	border-color: #d6e9c6;
-	padding: 15px;
-	margin: 5px;
+.ui-rd-state-ativado{
+	background-color: rgba(255, 81, 0, 0.177);
+}
+
+.aviso {
+	
+	padding: 5px;
+	margin: 10px;
 	margin-bottom: 20px;
 	border: 1px solid transparent;
 	border-radius: 4px;
@@ -83,15 +100,14 @@ body {
 	display: inline-block;
 }
 
-.ui-rd-state-ativado{
-	background-color: rgba(255, 81, 0, 0.177);
+.kama-add{
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
 }
 
-.ui-player-state-ativado{
-	background-color: rgba(255, 247, 0, 0.177);
-}
-
-.legenda{
-	display: none;
-	color: rgba(0, 0, 0, 0.598);
+.kama-rem{
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
 }

@@ -1,5 +1,5 @@
 var draggableConfig = {
-  connectToSortable: ".player",
+  connectToSortable: ".player-sortable",
   helper:"clone",
   axis: "x",
 };
@@ -7,33 +7,34 @@ var draggableConfig = {
 var sortableConfig = {
   activate: function( event, ui ) {
     $( ".player" ).addClass("ui-player-state-ativado");
-    $(".legenda-player").show();
+    $( ".legenda-player" ).show();
   },
   deactivate: function( event, ui ) {
     $( ".player" ).removeClass("ui-player-state-ativado");
-    $(".legenda-player").hide();
+    $(".legenda-player" ).hide();
   },
-  update: function( event, ui ) {
-    $( ".success" ).fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
+  receive: function( event, ui ) {
+    $( ".kama-add" ).fadeIn( 400 ).delay( 400 ).fadeOut( 400 );
   }
 };
 
 var droppableConfig = {
   over: function(event, ui) {
-    $(".legenda-rd").show();
+    $( ".legenda-rd" ).show();
   },
   deactivate: function(event, ui) {
-    $(".legenda-rd").hide();
+    $( ".legenda-rd" ).hide();
   },  
   drop: function(event, ui) {
-    $(".legenda-rd").hide();
+    $( ".legenda-rd" ).hide();
     $(ui.draggable).remove();
+    $( ".kama-rem" ).fadeIn( 400 ).delay( 400 ).fadeOut( 400 );
   },
   classes: {
     "ui-droppable-active": "ui-rd-state-ativado",
   },
 };
 
-$(".kama-img").draggable(draggableConfig);
-$( ".player" ).sortable(sortableConfig);
+$( ".kama-img" ).draggable(draggableConfig);
+$( ".player-sortable" ).sortable(sortableConfig);
 $( ".apagar" ).droppable(droppableConfig);
