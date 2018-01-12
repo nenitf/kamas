@@ -1,11 +1,16 @@
 $( function() {
-    
-    $( "#apagar" ).droppable({
-        drop: function( event, ui ) {
-          $( this )
-            .find( "p" )
-              .html( "Dropped!" );
-        }
-      });
-      $( ".kama-div" ).draggable({containment: "parent"});
+  
+  $( "#apagar" ).droppable({
+    drop: function(event, ui) {
+      $(ui.draggable)
+      .remove();
+    }
+  });
+  
+  $( ".kama-img" ).draggable();
 });
+/*
+$( ".kama-img").click(function() {
+  $( this ).clone().prependTo( ".kama-div" );
+});
+*/

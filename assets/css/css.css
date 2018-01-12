@@ -1,14 +1,8 @@
 .kama-div{
-	cursor: move;
-
-	width: 10%;
-
-	max-height: 100px;
-	max-width: 100px;
-	min-height: 50px;
-	min-width: 50px;
-
-	overflow: hidden;
+	max-height: 50px;
+	max-width: 50px;
+	min-height: 25px;
+	min-width: 25px;
 }
 
 body {
@@ -16,11 +10,34 @@ body {
 }
 
 .kama-img{
-	width: 100%;
+	max-height: 50px;
+	max-width: 50px;
+	min-height: 25px;
+	min-width: 25px;
+	position: relative;
 }
 
 #apagar {
 	padding: 0.5em;
 	float: left;
 	border: 1px solid black;
+	position: absolute;
+	left: 50%;
+	top: 0%
+}
+
+#criar{
+	padding: 0.5em;
+	float: left;
+	border: 1px solid black;
+	position: absolute;
+	left: 50%;
+	bottom: 0%;
+}
+
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
 }
