@@ -5,7 +5,10 @@ var draggableConfig = {
 };
 
 var sortableConfig = {
-  placeholder: "sortable-placeholder",
+  placeholder: "AAAA",
+  update: function( event, ui ) {
+    $( ".success" ).fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
+  }
 };
 
 var droppableConfig = {

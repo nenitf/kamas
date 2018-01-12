@@ -1,3 +1,12 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	background: linear-gradient(to right, rgb(247, 202, 201), rgb(146, 168, 209));
+}
+
 .kama-div{
 	width: 50%;
 	position: absolute;
@@ -6,35 +15,18 @@
 	text-align: center;
 }
 
-body {
-	background: linear-gradient(to right, rgb(247, 202, 201), rgb(146, 168, 209));
-}
-
 .kama-img{
 	max-height: 50px;
 	max-width: 50px;
 	min-height: 25px;
 	min-width: 25px;
 	position: relative;
+	display: inline-block;
 }
 
-#apagar {
-	padding: 0.5em;
-	float: left;
-	border: 5px dashed black;
-	position: absolute;
-	left: 30%;
-	top: 0%;
-	width: 40%;
-	height: 15%;
-	vertical-align: ce;
-}
-
-html {
-	height: 100%;
-}
-body {
-	min-height: 100%;
+.setas{
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .player{
@@ -52,4 +44,33 @@ body {
 
 .p2{
 	right: 0%;
+}
+
+.apagar {
+	padding: 0.5em;
+	float: left;
+	border: 5px dashed black;
+	position: absolute;
+	left: 30%;
+	top: 0%;
+	width: 40%;
+	height: 40%;
+	text-align: center;
+}
+
+.success {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	padding: 15px;
+	margin: 10px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+    display: none;
+}
+
+.fa-angle-double-left, .fa-angle-double-left{
+	position: relative;
+	display: inline-block;
 }
