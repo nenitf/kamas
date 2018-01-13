@@ -1,6 +1,10 @@
 .socialmedia-div{
 	letter-spacing: 2px;
 	text-align: center;
+
+	/* utilizado apenas no projeto das kamas online */
+	position: relative;
+
 }
 
 .alert .fa-2x{

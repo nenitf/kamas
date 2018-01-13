@@ -12,6 +12,7 @@ var sortableConfig = {
   deactivate: function( event, ui ) {
     $( ".player" ).removeClass("ui-player-state-ativado");
     $(".legenda-player" ).hide();
+    $( ".tutorial").remove();
   },
   receive: function( event, ui ) {
     $( ".kama-add" ).fadeIn( 400 ).delay( 400 ).fadeOut( 400 );
@@ -19,7 +20,7 @@ var sortableConfig = {
 };
 
 var droppableConfig = {
-  over: function(event, ui) {
+  activate: function(event, ui) {
     $( ".legenda-rd" ).show();
   },
   deactivate: function(event, ui) {
