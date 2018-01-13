@@ -1,5 +1,5 @@
 html {
-	height: 130%;
+	height: 100%;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 	width: 40%;
 	position: absolute;
 	left: 30%;
-	top: 102%;
+	top: 65%;
 	text-align: center;
 }
 
@@ -29,10 +29,9 @@ body {
 
 .player{
 	width: 30%;
-	height: 120%;
+	height: 100%;
 	position: absolute;
-	top: 30%;
-	padding: 0.5em;
+	top: 0%;
 }
 
 .p1{
@@ -74,12 +73,11 @@ body {
 
 .apagar {
 	width: 30%;
-	height: 70%;
+	height: 65%;
 	position: absolute;
 	left: 35%;
-	top: 30%;
+	top: 0%;
 	text-align: center;
-	padding: 0.5em;
 	border: 5px dashed black;
 	overflow: hidden;
 }

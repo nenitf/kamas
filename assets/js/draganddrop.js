@@ -15,7 +15,7 @@ var sortableConfig = {
     $( ".tutorial").remove();
   },
   receive: function( event, ui ) {
-    $( ".kama-add" ).fadeIn( 400 ).delay( 400 ).fadeOut( 400 );
+    $( ".kama-add" ).fadeIn( 400 ).delay( 300 ).fadeOut( 400 );
   }
 };
 
@@ -29,7 +29,7 @@ var droppableConfig = {
   drop: function(event, ui) {
     $( ".legenda-rd" ).hide();
     $(ui.draggable).remove();
-    $( ".kama-rem" ).fadeIn( 400 ).delay( 400 ).fadeOut( 400 );
+    $( ".kama-rem" ).fadeIn( 400 ).delay( 300 ).fadeOut( 400 );
   },
   classes: {
     "ui-droppable-active": "ui-rd-state-ativado",
