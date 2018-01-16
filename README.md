@@ -1,4 +1,4 @@
-# Korsmaster Online
+# Krosmaster Kamas Online
 
 ## Frameworks usados
 - Bootstrap v3
@@ -8,7 +8,7 @@
 - Jquery-ui
 
 ## Justificativa
-Sistema planejado para ser uma opção aos jogadores de __[Krosmaster Arena](http://www.krosmaster.com/pt/jogos/descobrir-jogo-tabuleiro)__ de tabuleiro com relação a utilização das kamas (moedas do jogo). Possibilitando somar e subtrair quantidades de moedas dos jogadores, simulando o kamas reais.
+Sistema planejado para ser uma opção aos jogadores de __[Krosmaster Arena](http://www.krosmaster.com/pt/jogos/descobrir-jogo-tabuleiro)__ de tabuleiro com relação a utilização das kamas (moedas do jogo). Possibilitando somar e subtrair quantidades de moedas dos jogadores, simulando o kamas reais. A aplicação foi pensada para a utilização em celulares com a tela rotiacionada na horizontal.
 
 ### Utilização
 Os jogadores podem:
