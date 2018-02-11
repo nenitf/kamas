@@ -3,12 +3,12 @@
 	text-align: center;
 }
 
-.alert .fa-2x{
+.alert .fa-lg{
 	transition: 1s;
 	color: rgb(146, 168, 209);
 }
 
 
-.alert .fa-2x:hover {
+.alert .fa-lg:hover {
 	color: rgb(247, 202, 201);
 }
