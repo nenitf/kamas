@@ -1,0 +1,22 @@
+CACHE MANIFEST
+
+#v8
+
+CACHE:
+assets/css/reset.css
+assets/css/css.css
+assets/css/socialmedia.css
+assets/bootstrap/css/bootstrap.min.css
+assets/fontawesome/fontawesome-all.js
+assets/jquery/jquery.js
+assets/jquery-ui/jquery-ui.js
+assets/bootstrap/js/bootstrap.min.js
+assets/ui-touch-punch/jquery.ui.touch-punch.js
+assets/js/draganddrop.js
+assets/js/filtroskill.js
+assets/img/rds.png
+assets/img/kama2.png
+assets/img/kama4.png
+
+NETWORK:
+*
